@@ -7,8 +7,10 @@
 </head>
 <body>
 	{% for item in items %}
-		<h1>{{item.title}}</h1>
-		<p> {{item.description}}</p>
+		<!-- <h1>{{item.title}}</h1> -->
+		<input type="checkbox">
+		<label> {{item.description}}</label><br>	
 	{% endfor %}
+	<a href="/add">add</a>
 </body>
 </html>

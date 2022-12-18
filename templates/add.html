@@ -1,0 +1,10 @@
+<h1>Add items</h1>
+
+<form action="addrecord/" method="post">
+{% csrf_token %}
+Description:<br>
+<input name="description">
+<br>
+<br><br>
+<input type="submit" value="Submit">
+</form>
